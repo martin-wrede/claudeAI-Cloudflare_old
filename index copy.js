@@ -1,6 +1,5 @@
 // Constants
-const workerUrl = 'https://my-first-worker.framez-mw.workers.dev/'
-
+const workerUrl = 'https://worker.shant.workers.dev/'
 const feedbackDisplayTime = 3000
 
 // Element Selectors
@@ -50,8 +49,7 @@ async function summarize() {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(messages),
-      mode: 'no-cors'
+      body: JSON.stringify(messages)
     }
     startLoading()
     const response = await fetch(workerUrl, options)

@@ -1,5 +1,5 @@
 {
-  "name": "Scrim-s06imqa",
+  "name": "Scrim",
   "description": "https://v2.scrimba.com/claude-ai-c09gsmkso3/~0ynq",
   "scripts": {
     "start": "vite",
@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }
